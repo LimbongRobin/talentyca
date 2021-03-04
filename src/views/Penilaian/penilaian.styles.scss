@@ -1,0 +1,62 @@
+.penilaian{
+    .card{
+        border: none !important;
+    }
+    .col-header{
+        text-align: center;
+        font-weight: bold;
+    }
+    .card-body-list{
+        padding: 3em;
+    }
+    .row-header-body-list{
+        margin-bottom: 1em;
+        .col{
+            text-align: center;
+            font-weight: bold;
+            font-size: 14;
+        }
+        .blank-space{
+            max-width: 40px !important;
+        }
+    }
+    .row-body-list{
+        border: solid 1px #ced4da;
+        padding: 0.2em;
+        .form-control{
+            border: none !important;
+            padding: 0 0.5em !important;
+        }
+        .col{
+            padding-right: 0 !important;
+        }
+    }    
+    .image-student{
+        max-width: 40px !important;
+        justify-content: center;
+        line-height: 30px;
+        border: none !important;
+        border-radius: 50%;
+        background-color: #dbe2e9;
+        display: flex;
+        .fa{
+            margin: auto;
+        }
+    }
+    .row-button{
+        position: relative;
+        display: flex;
+        padding: 2em 0;
+        .col-12{
+            padding:0 !important;
+        }
+        button{
+            right: 0;
+            width: 200px;
+            background-color: rgb(69, 216, 216);
+        }
+    }
+    .text-area{
+        height: 350px !important;
+    }
+}
